@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #374151;
+}
+
+.card-container {
+  width: 317px;
+  margin: 5rem auto;
+  margin-bottom: 0;
+  background-color: #1a1b21;
+  border-radius: 10px 10px 0 0;
+}
+
+.person-dp {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+.name {
+  font-size: 25px;
+  line-height: 30.26px;
+  margin-top: 21px;
+}
+.job {
+  color: #f3bf99;
+  font-size: 12.8px;
+}
+.link {
+  font-size: 10.24px;
+  cursor: pointer;
+}
+.btn {
+  padding: 5px 25px;
+  border-radius: 6px;
+  margin-bottom: 33px;
+}
+
+.email {
+  color: #1e1f26;
+}
+
+.about-container {
+  width: 317px;
+  margin-top: 0;
+  margin: auto;
+  background-color: #1a1b21;
+}
+
+.content {
+  padding: 0 36px;
+}
+.content p {
+  color: #dcdcdc;
+  font-size: 10.24px;
+}
+
+.content h4 {
+  font-size: 16px;
+}
+.footer-container {
+  width: 317px;
+  height: 64px;
+  margin: 0 auto;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.icon {
+  color: #918e9b;
+  margin: auto 0px;
+}
+.icon:hover {
+  color: #374151;
+  cursor: pointer;
+}
